@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego de Gusanito</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Slider en Google Sites</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Juego de Gusanito</h1>
-    <canvas id="gameCanvas"></canvas>
-    <script src="script.js"></script>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="URL_DE_LA_IMAGEN_1" alt="Imagen 1"></div>
+            <div class="slide"><img src="URL_DE_LA_IMAGEN_2" alt="Imagen 2"></div>
+            <div class="slide"><img src="URL_DE_LA_IMAGEN_3" alt="Imagen 3"></div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
